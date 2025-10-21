@@ -1,5 +1,10 @@
 # Building-Privacy-Focused-Vector-Search-Applications: PyCon Workshop
 
+## Slides
+
+These are the slides for the [workshop.](https://docs.google.com/presentation/d/1PEi7HVXJs3in-CAzTXaUmgXTiFPZjU7B/edit?usp=sharing&ouid=117579161492281663932&rtpof=true&sd=true)
+
+## Details 
 This workshop is designed to help you get started with vector search using Couchbase and Python. We will be using the [Couchbase Python SDK](https://docs.couchbase.com/python-sdk/current/hello-world/start-using-sdk.html) and [Couchbase Capella](https://www.couchbase.com/products/cloud) managed database service.
 
 The entire workshop can be run from inside a GitHub Codespace, which is a cloud-based development environment pre-configured with many necessary tools and services. You can also run it locally; we’ll use Python, the Couchbase Python SDK, and optionally Ollama for local embedding models.
