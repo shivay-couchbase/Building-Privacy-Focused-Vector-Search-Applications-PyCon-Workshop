@@ -1,0 +1,11 @@
+# Core dependencies for RAG with Couchbase and Ollama
+datasets==3.5.0
+langchain-couchbase==0.3.0
+langchain-ollama==0.2.2
+python-dotenv==1.1.0
+
+# Additional dependencies (will be installed automatically by the above packages)
+# langchain-core
+# couchbase
+# ollama
+
