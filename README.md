@@ -4,9 +4,6 @@ This workshop is designed to help you get started with vector search using Couch
 
 The entire workshop can be run from inside a GitHub Codespace, which is a cloud-based development environment pre-configured with many necessary tools and services. You can also run it locally; we’ll use Python, the Couchbase Python SDK, and optionally Ollama for local embedding models.
 
-> [!IMPORTANT]
-> Key information needed for running this workshop in GitHub Codespaces can be found [here](#running-in-github-codespaces).
-
 ## Prerequisites
 
 - A GitHub account
