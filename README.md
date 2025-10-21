@@ -111,27 +111,6 @@ Once you have created an account, you can create a new Couchbase cluster by foll
 
 <img src="workshop_images/create_cluster_options.png" alt="Create Cluster Options Screenshot" width="50%">
 
-When working in a GitHub Codespaces environment, there are some differences to be aware of, especially for the Couchbase Shell commands and setting up Python.
-
-* The `cbsh` binary is not available in your `PATH` by default in Codespaces. Instead, you can find it in the following directory within your workspace:
-
-```bash
-couchbase-shell/target/debug/cbsh
-```
-
-To use `cbsh` in your Codespace, provide the full path when running commands. For example:
-
-```bash
-./couchbase-shell/target/debug/cbsh --config-dir /path/to/config-file
-```
-
-You can also create an alias for the `cbsh` binary to make it easier to use:
-
-```bash
-alias cbsh="./couchbase-shell/target/debug/cbsh"
-```
-
-This allows you to run `cbsh` commands without specifying the full path.
 
 For Python, create and activate a virtual environment and install dependencies:
 
