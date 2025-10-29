@@ -23,7 +23,7 @@ This workshop is about building privacy‑focused vector search applications. Th
 What we’ll install and why:
 
 - embeddinggemma:latest — a fast local embedding model for turning text into vectors. We’ll use its embeddings for indexing and search.
-- qwen3:8b — a capable local LLM for analysis, summarization, and Retrieval Augmented Generation steps we will incorporate alongside vector search.
+- qwen3:1.7b — a capable local LLM for analysis, summarization, and Retrieval Augmented Generation steps we will incorporate alongside vector search.
 
 ### Install Ollama
 
@@ -64,13 +64,13 @@ Pull the embedding model and the LLM locally. These are large downloads; ensure 
 ollama pull embeddinggemma:latest
 
 # LLM (~5 GB)
-ollama pull qwen3:8b
+ollama pull qwen3:1.7b
 ```
 
 What they do:
 
 - embeddinggemma:latest — Generates dense vector embeddings suitable for semantic similarity and retrieval. We’ll store these vectors in Couchbase and search with a vector index.
-- qwen3:8b — General‑purpose LLM you can use for tasks like response synthesis, summarization, or query reformulation in a local/private workflow.
+- qwen3:1.7b — General‑purpose LLM you can use for tasks like response synthesis, summarization, or query reformulation in a local/private workflow.
 
 Verification:
 
@@ -82,7 +82,7 @@ You should see entries similar to:
 
 ```
 embeddinggemma:latest    85462619ee72    ~621 MB    just now
-qwen3:8b                 500a1f067a9f     ~5.2 GB   just now
+qwen3:1.7b               500a1f067a9f     ~1.2 GB   just now
 ```
 
 ## Workshop Outline
